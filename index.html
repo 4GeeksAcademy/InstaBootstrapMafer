@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>InstaPhoto</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+    <div class="cabecera">
+        <div class="usuario">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="24"
+                alt="Instagram"> Mafer
+        </div>
+
+        <div class="botonescabecera">
+            <div class="dropdown">
+                <button class="btn btn-Light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    &#9881;
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Perfil</a></li>
+                    <li><a class="dropdown-item" href="#">Accesibilidad</a></li>
+                    <li><a class="dropdown-item" href="#">Privacidad</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+                </ul>
+
+                <div class="btn-group">
+                    <button type="button" class="btn btn-Light toggle" data-bs-toggle="dropdown"
+                        data-bs-display="static" aria-expanded="false">
+                        Nuevo post
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+
+
+
+
+    <div class="containercuerpo">
+        <input type="radio" id="modo-grid" name="modo" checked>
+        <input type="radio" id="modo-vertical" name="modo">
+        <div class="botonesbotones">
+            <label for="modo-grid" class="btn btn-secondary btn-toggle me-2">Cuadrícula</label>
+            <label for="modo-vertical" class="btn btn-secondary btn-toggle">Vertical</label>
+        </div>
+
+
+
+
+        <br>
+
+
+
+        <div class="contenedor-galerias">
+            <div class="galeria-grid justify-content-center">
+                <div class="galeria-grid row g-3 justify-content-center">
+                    <div class="col-4"><img src="https://picsum.photos/id/62/367/267" class="img-grid"
+                            class="img-thumbnail" /></div>
+                    <div class="col-4"><img src="https://picsum.photos/id/69/367/267" class="img-grid"
+                            class="img-thumbnail" /></div>
+                    <div class="col-4"><img src="https://picsum.photos/id/74/367/267" class="img-grid"
+                            class="img-thumbnail" /></div>
+                    <div class="col-4"><img src="https://picsum.photos/id/75/367/267" class="img-grid"
+                            class="img-thumbnail" /></div>
+                    <div class="col-4"><img src="https://picsum.photos/id/77/367/267" class="img-grid"
+                            class="img-thumbnail" /></div>
+                    <div class="col-4"><img src="https://picsum.photos/id/90/367/267" class="img-grid"
+                            class="img-thumbnail" /></div>
+                    <div class="col-4"><img src="https://picsum.photos/id/102/367/267" class="img-grid"
+                            class="img-thumbnail" /></div>
+                    <div class="col-4"><img src="https://picsum.photos/id/89/367/267" class="img-grid"
+                            class="img-thumbnail" /></div>
+                    <div class="col-4"><img src="https://picsum.photos/id/92/367/267" class="img-grid"
+                            class="img-thumbnail" /></div>
+                </div>
+            </div>
+
+
+            <div class="galeria-vertical">
+                    <div class="mb-3 card"><img src="https://picsum.photos/id/62/367/267" class="img-vertical card-img-top" alt="...">
+                        &#128247; Mafer <br>
+                        24 &#10084; <br>
+                        Atardeceres que curan el alma. 🌅✨ #PazInterior #NaturalezaMágica
+                    </div>
+
+                    <div class="mb-3 card"><img src="https://picsum.photos/id/69/367/267" class="img-vertical card-img-top" alt="...">
+                        &#128247; Mafer <br>
+                        62 &#10084; <br>
+                        A veces el camino solitario es el que más te enseña. 🚞💭 #ViajeInterior #RielesDeVida
+                    </div>
+
+                    <div class="mb-3 card"><img src="https://picsum.photos/id/74/367/267" class="img-vertical card-img-top" alt="...">
+                        &#128247; Mafer <br>
+                        42 &#10084; <br>
+                        Entre la calma del mar y el bullicio de la ciudad, encontré mi equilibrio. ⚓💙 #CiudadYMar #MomentoPerfecto
+                    </div>
+
+                    <div class="mb-3 card"><img src="https://picsum.photos/id/75/367/267" class="img-vertical card-img-top" alt="...">
+                        &#128247; Mafer <br>
+                        58 &#10084; <br>
+                        De la vid al alma. Todo empieza con una uva. 🍇🍷 #Viñedos #PuraEsencia
+                    </div>
+
+                    <div class="mb-3 card"><img src="https://picsum.photos/id/77/367/267" class="img-vertical card-img-top" alt="...">
+                        &#128247; Mafer <br>
+                        15 &#10084; <br>
+                        Mi oficina ideal: sin wifi, pero con brisa marina. 🌴🌊 #EscapePerfecto #VidaSimple
+                    </div>
+
+                    <div class="mb-3 card"><img src="https://picsum.photos/id/90/367/267" class="img-vertical card-img-top" alt="...">
+                        &#128247; Mafer <br>
+                        62 &#10084; <br>
+                        Cuando la luz juega con el vidrio, hasta lo simple se vuelve mágico. 💡🫙 #Detalles #EncantoRústico
+                    </div>
+
+                    <div class="mb-3 card"><img src="https://picsum.photos/id/102/367/267" class="img-vertical card-img-top" alt="...">
+                        &#128247; Mafer <br>
+                        84 &#10084; <br>
+                        Pequeñas, dulces y perfectas... como los mejores momentos. 🍓✨ #DesayunoFeliz #SimpleDelicia
+                    </div>
+
+                    <div class="mb-3 card"><img src="https://picsum.photos/id/89/367/267" class="img-vertical card-img-top" alt="...">
+                        &#128247; Mafer <br>
+                        36 &#10084; <br>
+                        La belleza está en las cosas pequeñas... como una hoja con rocío al amanecer. 🌱🌤 #Frescura #VidaVerde
+                    </div>
+
+                    <div class="mb-3 card"><img src="https://picsum.photos/id/92/367/267" class="img-vertical card-img-top" alt="...">
+                        &#128247; Mafer <br>
+                        38 &#10084; <br>
+                        Donde el mar acaricia cada piedra... ahí quiero quedarme. 🌊🪨 #AmoLaPlaya #SonidoDelMar
+                    </div>
+                        
+                
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
